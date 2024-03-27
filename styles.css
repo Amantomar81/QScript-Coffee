@@ -1,0 +1,86 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #fff;
+    color: #333;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    margin-right: 20px;
+    display: inline-flexbox;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  nav ul li a {
+    color: #333; 
+    text-decoration: none;
+    font-size: 18px; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #eee; 
+  }
+  
+  .hero {
+    background-image: url('coffee.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 200px 0;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .menu-item {
+    margin-bottom: 20px;
+    background-color: rgb(239, 244, 244)
+  }
+  
+  .contact form input,
+  .contact form textarea,
+  .contact form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  

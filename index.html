@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QScript Coffee</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Welcome to QScript Coffee</h1>
+      <p>Enjoy our specialty coffee and pastries in a cozy ambiance.</p>
+      <a href="#contact" class="btn">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>QScript Coffee is dedicated to providing the finest coffee experience to our customers. 
+        Our mission is to create a warm and inviting space where people can relax and enjoy 
+        quality coffee and pastries.</p>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu">
+    <div class="container">
+      <h2>Menu</h2>
+      <div class="menu-item">
+        <h3>Espresso</h3>
+        <p>A strong, concentrated coffee made by forcing hot water through finely-ground coffee beans.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Cappuccino</h3>
+        <p>Espresso combined with steamed milk and a frothy milk foam layer.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Latte</h3>
+        <p>Espresso with a larger amount of steamed milk and a small amount of milk foam.</p>
+      </div>
+      <div class="menu-item">
+        <h3>Croissant</h3>
+        <p>A buttery and flaky pastry, perfect to pair with your coffee.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
